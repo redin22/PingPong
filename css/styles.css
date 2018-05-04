@@ -1,6 +1,17 @@
 .form-group{
   display: inline;
 }
-.btn:hover{
-  color:#ddd;
+.header{
+  text-align: center;
+  color:#f44336;
+}
+.container{
+  align-items: center;
+
+}
+.copyright{
+  float: right;
+}
+.gaming{
+  color:#f44336;
 }
