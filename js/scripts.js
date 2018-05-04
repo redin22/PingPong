@@ -1,18 +1,3 @@
-//User Interface Logic
-$(document).ready(function(){
- $("#userInput").submit(function(event){
-   $("#final").empty();
-   var countTo = parseInt($("input#countTo").val());
-   var results = countUp(countTo);
-
-   results.forEach(function(item){
-     $("#results").append('<li>' + item + '</li>');
-   });
-   event.preventDefault();
- });
-});
-
-
 //Business Logic
 var countUp = function(countTo){
  var result = [];
@@ -34,3 +19,17 @@ var countUp = function(countTo){
 
  return result;
 };
+
+//User Interface Logic
+$(document).ready(function(){
+ $("#userInput").submit(function(event){
+   $("#final").empty();
+   var countTo = parseInt($("input#countTo").val());
+   var results = countUp(countTo);
+
+   results.forEach(function(item){
+     $("#results").append('<li>' + item + '</li>');
+   });
+   event.preventDefault();
+ });
+});
