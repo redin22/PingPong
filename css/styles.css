@@ -7,11 +7,13 @@
 }
 .container{
   align-items: center;
-
 }
 .copyright{
   float: right;
 }
 .gaming{
   color:#f44336;
+}
+body{
+  background-color: wheat;
 }
