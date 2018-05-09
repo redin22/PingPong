@@ -7,6 +7,7 @@ The project is a gaming application based on divisibility.
 1. Numbers divisible by 3 are replaced by ping.
 2. Numbers divisible by 5 are replaced by pong.
 3. Numbers divisible by 15 are replaced by pingpong.
+
 It can count up to the provided for example;
 an input of 7 returns a result of 1,2,ping,4,pong,ping,7.
 ## Technology Used
