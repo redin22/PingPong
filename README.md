@@ -2,8 +2,13 @@
 PingPong game that employs use of divisibility.
 
 ## Description of project
-The project is a portfolio landing page that exhibits my works as a programmer. It gives an introduction to my mantra in the form of an eagle,links to some 
-of my projects, my education and skills. For further information, I have left my contacts at the bottom of the page.
+The project is a gaming application based on divisibility. 
+## Specifications
+1. Numbers divisible by 3 are replaced by ping.
+2. Numbers divisible by 5 are replaced by pong.
+3. Numbers divisible by 15 are replaced by pingpong.
+It can count up to the provided for example;
+an input of 7 returns a result of 1,2,ping,4,pong,ping,7.
 ## Technology Used
 I used HTML,CSS, bootstrap,jQuery and JavaScript as my main tools of development.
 ## Project setup instructions
@@ -14,7 +19,7 @@ https://redin22.github.io/PingPong
 This project is licensed under the MIT License.
 Copyright (c) 2018 Rehan Edin
 
-## Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation 
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation 
 files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy,
 modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software 
 is furnished to do so, subject to the following conditions:
